@@ -1,0 +1,22 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifthikar-ali/Namaste-React.git"
+  },
+  "author": "ifthikar ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifthikar-ali/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/ifthikar-ali/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
