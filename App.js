@@ -30,7 +30,33 @@ const BodyComponent = () => (
     <FooterComponent></FooterComponent>
   </div>
 );
+/**
+ * Header Component
+ * - Logo
+ * - Nav Items
+ * Body Component
+ * - Search
+ * - Restaurant Container
+ *    - Restaurant Card
+ * Footer Component
+ * - Copyrights
+ * - Address
+ * - Contact
+ */
 
+const HeaderComponent = () => {
+  return (
+    <div className="header">
+      <div>
+        <img src="https://img.freepik.com/premium-vector/food-ordering-app-logo-with-points-fork-shapes-center_666184-195.jpg" />
+      </div>
+    </div>
+  );
+};
+
+const AppLayout = () => {
+  return <div className="app"></div>;
+};
 const reactRoot = ReactDOM.createRoot(document.getElementById("react-root"));
 // Rendering the React Element
 // reactRoot.render(jsxHeading);
