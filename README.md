@@ -69,6 +69,8 @@ Body Component
  ├─ Search
  └─ Restaurant Container
      └─ Restaurant Card
+        └─ Img
+        └─ Name of Res, Star Rating, cuisines, delivary time.
 
 Footer Component
  ├─ Copyright
