@@ -22,14 +22,18 @@ const Header = () => {
   );
 };
 
-const RestaurantCard = () => {
+const RestaurantCard = ({ resName, cuisine }) => {
+  // console.log(props);
   return (
     <div className="res-card">
       <img
         className="food-image"
         src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.7cTBBZDw85G8kihZnVlvqQHaE5%3Fpid%3DApi&f=1&ipt=0ff465405bbecc6e1e669b5de40af86928c3f0e30f720c7994ce7a9c49eb0bdb"
       ></img>
-      <h3>Sebera tikka</h3>
+      <h3>{resName}</h3>
+      <h4>{cuisine}</h4>
+      <h4>4.4 stars</h4>
+      <h4>30 minutes</h4>
     </div>
   );
 };
@@ -39,7 +43,14 @@ const Body = () => {
     <div className="body">
       <div className="search">Search</div>
       <div className="res-container">
-        <RestaurantCard />
+        <RestaurantCard
+          resName="Sekar Tea Stall"
+          cuisine="Vada Sambar, South Indian, Asian"
+        />
+        <RestaurantCard
+          resName="Ikea"
+          cuisine="cinnamon bread, swiden, swdish"
+        />
       </div>
     </div>
   );

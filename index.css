@@ -16,12 +16,20 @@
     margin: 10px;
     font-size: 20px;
 }
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
 .res-card{
     width: 260px;
-    height: 300px;
-    border: 1px solid black;
+    height: 370px;
     background-color: #f0f0f0;
     padding: 5px;
+    margin: 10px;
+}
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
 }
 .search{
     padding: 10px;
