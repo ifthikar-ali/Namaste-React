@@ -76,3 +76,9 @@ Footer Component
  ├─ Copyright
  ├─ Address
  └─ Contact
+
+
+ # React Hooks
+ (Normal JS utlity Functions)
+ - useState() - SuperPowerFul React variable
+ - useEffect()
